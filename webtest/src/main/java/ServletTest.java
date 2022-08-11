@@ -13,6 +13,7 @@ public class ServletTest extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("1");
+        System.out.println("2");
     }
 
     @Override
